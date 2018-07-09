@@ -2,9 +2,21 @@
   "name": "reinforcejs",
   "version": "1.0.0",
   "description": "ReinforceJS from karpathy and keeganbrown repositories",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/enxt/reinforcejs",
   "author": "efernandez <efernandez>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.17.5"
+  }
 }
