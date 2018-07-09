@@ -1,0 +1,10 @@
+{
+  "name": "reinforcejs",
+  "version": "1.0.0",
+  "description": "ReinforceJS from karpathy and keeganbrown repositories",
+  "main": "index.js",
+  "repository": "https://github.com/enxt/reinforcejs",
+  "author": "efernandez <efernandez>",
+  "license": "MIT",
+  "private": false
+}
